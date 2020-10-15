@@ -13,7 +13,7 @@ test.o: test.cpp allocator.hpp
 	$(CC) $(FLAGS) -c test.cpp
 
 clean:
-	rm rf *.o test
+	rm -rf *.o test
 
 test: allocator
 	./test
